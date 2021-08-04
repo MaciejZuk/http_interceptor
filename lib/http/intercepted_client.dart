@@ -145,6 +145,8 @@ class InterceptedClient extends BaseClient {
         method: Method.DELETE,
         url: url,
         headers: headers,
+        body: body,
+        encoding: encoding,
       );
 
   @override
